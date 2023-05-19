@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: var(--background);
+  font-size: 12px !important;
+}
+
+.search-bar {
+  margin-left: 90px;
+  margin-top: 40px;
+
+}
+
+/*buttons*/
+
+.btn-1 {
+  margin-top: 40px;
+  color: var(--text-color);
+  background-color: var(--background);
+  border-color: #181A1C;
+}
+
+.btn-1:hover {
+  color: var(--text-color);
+  background-color: var(--background);
+  border-color: #272626;
+}
+
+.MuiCardHeader-subheader {
+  color: var(--text-color)!important;
+  
+}
+
+.searchbar-width {
+  width: 100% !important;
+}
+
+.search-bar {
+  border-color: #4e4f50 !important;
+}
+
+td:first-child,
+th:first-child {
+  box-shadow: 18px 0px 40px 0px rgb(74 68 68 / 25%) !important;
+}
+
+.card-style {
+  /* background-color: #181A1C !important;
+  color: #FFFFFF !important; */
+  color: var(--text-color) !important;
+  background-color: var(--card-backgroundd) !important;
+  border-color: #4e4f50 !important;
+}
+
+.Icon-btn{
+  color: var(--text-color) !important;
+}
+
+.nav-bar {
+  /* background-color: #181A1C !important;
+  color:#FFF !important */
+  color: var(--text-color) !important;
+  background-color: var(--header-background) !important;
+}
+
+.input-mdb {
+  background-color: var(--background) !important;
+  border-color: #4e4f50;
+}
+
+.toggle-btn {
+  /* background-color: #181A1C !important;
+  color: #FFFFFF !important; */
+  color: var(--text-color) !important;
+  background-color: var(--background) !important;
+  border-color: #4e4f50 !important;
+}
+.table-paper{
+  color: var(--text-color) !important;
+  background-color: var(--background) !important;
+}
+.table-heading{
+  color: var(--text-color) !important;
+  background-color: var(--background) !important;
+}
+body {
+  color: var(--text-color);
+}
+
+a {
+  color: var(--link-color);
+}
+.pading-right{
+  padding-right: 23px !important;
+}
+
+.modal-content{
+  background-color: var(--background) !important;
+}
+.dropdown-btn{
+  color: var(--text-color) !important;
+  background-color: var(--card-backgroundd) !important;
+  width: 10px !important;
+ border: none !important;
+}
+.dropdown-toggle::after{
+border-top: 0px !important;
+}
+
+/*theme switch animation*/
+html.theme-transition,
+html.theme-transition *,
+html.theme-transition *:before,
+html.theme-transition *:after {
+  transition: all 500ms !important;
+  transition-delay: 0 !important;
+}
+
+
+/*light theme variables*/
+:root[theme="light"] {
+  --background: rgb(255, 255, 255);
+  --text-color: #111;
+  --link-color: #f2f0f3;
+  --background-color: #f8f4f4;
+}
+
+/*dark theme variables*/
+:root[theme="dark"] {
+  --background: black !important;
+  --text-color: #FFF !important;
+  --link-color: #3a3a36 !important;
+  --background-color: #222!important;
+--card-backgroundd:#2b2b28 ;
+--header-background:#2b2b28;
+}
